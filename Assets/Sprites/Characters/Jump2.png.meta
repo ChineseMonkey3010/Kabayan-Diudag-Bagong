@@ -113,14 +113,14 @@ TextureImporter:
         width: 30
         height: 30
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5188a057d51ce7042848d7267e2e6284
-      internalID: 1907239841
+      spriteID: f0d9dea8c5d5aff48b4457c3d6a39313
+      internalID: 722434114
       vertices: []
       indices: 
       edges: []
@@ -134,14 +134,14 @@ TextureImporter:
         width: 30
         height: 29
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 836bcd84fb39cf94ba9e25280cfd90d0
-      internalID: 332320784
+      spriteID: 658550d36d7010142bb4f844f380b84a
+      internalID: -1417443667
       vertices: []
       indices: 
       edges: []
@@ -155,14 +155,14 @@ TextureImporter:
         width: 30
         height: 28
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 830bb787e414b7d4fa5ea184c9604f51
-      internalID: 1026506593
+      spriteID: d64498fdbc29afb40ac4b3358f179946
+      internalID: -861342262
       vertices: []
       indices: 
       edges: []
@@ -176,14 +176,14 @@ TextureImporter:
         width: 30
         height: 29
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bc96b6f43d26d8249b5217802800e547
-      internalID: -608196653
+      spriteID: e4defb65163677e408f26b5e4f4f3227
+      internalID: 960376027
       vertices: []
       indices: 
       edges: []
@@ -197,14 +197,14 @@ TextureImporter:
         width: 30
         height: 31
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d4be5d45c05f6284697ce27c99ecc886
-      internalID: 915199954
+      spriteID: 25f641a99a83fc745b4d8d02719c25d7
+      internalID: -600383875
       vertices: []
       indices: 
       edges: []
@@ -214,18 +214,18 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 536
-        y: 41
+        y: 42
         width: 30
-        height: 32
+        height: 31
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b1d4a682642089b449be54116bfd1068
-      internalID: 1611988395
+      spriteID: ca4f6ba32267491429b7ce935331579f
+      internalID: -1000845135
       vertices: []
       indices: 
       edges: []
@@ -234,19 +234,19 @@ TextureImporter:
       name: Jump2_6
       rect:
         serializedVersion: 2
-        x: 636
+        x: 635
         y: 41
-        width: 29
+        width: 30
         height: 33
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f0ab07a8ce05b304aad7346f6d36ac96
-      internalID: -765726877
+      spriteID: 9d9583efcf9a2c3409b5d756eb2b9af8
+      internalID: 690211983
       vertices: []
       indices: 
       edges: []
@@ -262,15 +262,15 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Jump2_0: 1907239841
-      Jump2_1: 332320784
-      Jump2_2: 1026506593
-      Jump2_3: -608196653
-      Jump2_4: 915199954
-      Jump2_5: 1611988395
-      Jump2_6: -765726877
-      Jump2_7: -1459024895
-      Jump2_8: 420000657
+      Jump2_0: 722434114
+      Jump2_1: -1417443667
+      Jump2_2: -861342262
+      Jump2_3: 960376027
+      Jump2_4: -600383875
+      Jump2_5: -1000845135
+      Jump2_6: 690211983
+      Jump2_7: -868181306
+      Jump2_8: -104546462
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

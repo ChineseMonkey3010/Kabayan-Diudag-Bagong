@@ -1,19 +1,47 @@
-using System.Collections;
-using System.Collections.Generic;
+using System.Diagnostics;
+using System;
 using UnityEngine;
-usi
 
 public class GachaMechanics : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    
+
+    //TRAPS
+    void Spiketrap()
     {
-        
+
     }
 
-    // Update is called once per frame
-    void Update()
+    void Landmine()
     {
-        
+
     }
+
+    void Icespiketrap()
+    {
+
+    }
+
+    void Mud()
+    {
+
+    }
+
+    void Cobweb()
+    {
+
+    }
+
+    //SPELLS
+
+    void Poison()
+    {
+
+    }
+
+    void Withering()
+    {
+
+    }
+
 }

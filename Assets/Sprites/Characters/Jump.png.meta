@@ -119,8 +119,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a3cb4c50548f3d748831c8618d6e1e76
-      internalID: 2130748479
+      spriteID: ab76efc33efcb5046ade9f913482eee8
+      internalID: 1926601724
       vertices: []
       indices: 
       edges: []
@@ -129,7 +129,7 @@ TextureImporter:
       name: Jump_1
       rect:
         serializedVersion: 2
-        x: 135
+        x: 136
         y: 41
         width: 30
         height: 29
@@ -140,8 +140,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: efabfa29658ee084fa984d49bbd1e263
-      internalID: -397126424
+      spriteID: 7ec545ca2922f8b4995bff7c874c506a
+      internalID: -347765660
       vertices: []
       indices: 
       edges: []
@@ -150,7 +150,7 @@ TextureImporter:
       name: Jump_2
       rect:
         serializedVersion: 2
-        x: 235
+        x: 236
         y: 41
         width: 30
         height: 28
@@ -161,8 +161,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 012341d3825aea343b2edaa87c5a81e0
-      internalID: -1999535512
+      spriteID: 6e0a1ed7564c4024e9eeb39975fc776d
+      internalID: -714027318
       vertices: []
       indices: 
       edges: []
@@ -171,7 +171,7 @@ TextureImporter:
       name: Jump_3
       rect:
         serializedVersion: 2
-        x: 335
+        x: 336
         y: 41
         width: 30
         height: 29
@@ -182,8 +182,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0d408a6b986f68f4cbbad4225a0424d2
-      internalID: 600876032
+      spriteID: 8d969115192b7ee4e8106308afa435c7
+      internalID: -89933339
       vertices: []
       indices: 
       edges: []
@@ -193,9 +193,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 435
-        y: 41
+        y: 40
         width: 30
-        height: 31
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -203,8 +203,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fe28b3f32620e1c428ca1d1af3a0c85e
-      internalID: -443834308
+      spriteID: 4aaf0b229dacfa846a1348a639ad52d2
+      internalID: 1741056720
       vertices: []
       indices: 
       edges: []
@@ -213,7 +213,7 @@ TextureImporter:
       name: Jump_5
       rect:
         serializedVersion: 2
-        x: 536
+        x: 535
         y: 41
         width: 30
         height: 32
@@ -224,8 +224,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 22f2b6a647b673d4a93cb14981a10ee9
-      internalID: 1197740004
+      spriteID: 6fbfe7392183d904c847e2ad62ab3222
+      internalID: 1262349590
       vertices: []
       indices: 
       edges: []
@@ -234,7 +234,7 @@ TextureImporter:
       name: Jump_6
       rect:
         serializedVersion: 2
-        x: 635
+        x: 636
         y: 41
         width: 30
         height: 33
@@ -245,8 +245,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 12c3ecf104a5bff4f8fd90a6cd03ce01
-      internalID: 1414516754
+      spriteID: 89d3cb7005df975459564bd5bb6ca844
+      internalID: 1393599362
       vertices: []
       indices: 
       edges: []
@@ -262,15 +262,16 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Jump_0: 2130748479
-      Jump_1: -397126424
-      Jump_2: -1999535512
-      Jump_3: 600876032
-      Jump_4: -443834308
-      Jump_5: 1197740004
-      Jump_6: 1414516754
-      Jump_7: -426481882
-      Jump_8: 1326685680
+      Jump_0: 1926601724
+      Jump_1: -347765660
+      Jump_2: -714027318
+      Jump_3: -89933339
+      Jump_4: 1741056720
+      Jump_5: 1262349590
+      Jump_6: 1393599362
+      Jump_7: -1694654665
+      Jump_8: -1888406989
+      Jump_9: -1563072483
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

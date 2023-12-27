@@ -9,6 +9,8 @@ TagManager:
   - Meteor2
   - Spiketrap
   - Trapmine
+  - Background
+  - Boar
   layers:
   - Default
   - TransparentFX

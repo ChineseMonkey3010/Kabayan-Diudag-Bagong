@@ -1,30 +1,42 @@
+using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.Diagnostics;
+using System.Security.Cryptography;
 using UnityEngine;
 
 public class BackgroundManager : MonoBehaviour
 {
-    public GameObject backgroundPrefab; // Reference to the background prefab
-
-    private Transform player; // Reference to the player's transform
-    private float backgroundWidth; // Width of the background prefab
+    public GameObject backgroundPrefab;
+    public float speed;
+    public float leftPosX;
+    public float rightPosX;
+    public float initialPosX; 
 
     void Start()
     {
-        player = GameObject.FindGameObjectWithTag("Player").transform; // Assuming the player has a "Player" tag
-        backgroundWidth = backgroundPrefab.GetComponent<SpriteRenderer>().bounds.size.x; // Get the width of the background prefab
+        backgroundPrefab.transform.position = new Vector3(initialPosX, transform.position.y, transform.position.z);
     }
 
     void Update()
     {
-        // Check if the player has reached the end of the current background
-        if (player.position.x >= transform.position.x + backgroundWidth / 2)
+        backgroundupdate();
+        checkbackground();
+    }
+
+    private void checkbackground()
+    {
+        if (backgroundPrefab.transform.position.x <= leftPosX)
         {
-            GenerateNewBackground(); // Generate a new background
+            backgroundPrefab.transform.position = new Vector3(rightPosX, transform.position.y, transform.position.z);
         }
     }
 
-    void GenerateNewBackground()
+    private void backgroundupdate()
     {
-        Vector3 newPosition = new Vector3(transform.position.x + backgroundWidth, transform.position.y, transform.position.z);
-        Instantiate(backgroundPrefab, newPosition, Quaternion.identity); // Instantiate a new background
+        var movement = Time.deltaTime * speed;
+        backgroundPrefab.transform.position = new Vector3(backgroundPrefab.transform.position.x - movement, transform.position.y, transform.position.z);
+
     }
 }
+
