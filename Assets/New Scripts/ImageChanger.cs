@@ -51,7 +51,7 @@ public class ImageChanger : MonoBehaviour
     }
 
 
-    void FixedUpdate()
+    void Update()
     {
         // Toggle image cycling when 'X' key is pressed
         if (Input.GetKeyDown(KeyCode.X))
@@ -76,36 +76,36 @@ public class ImageChanger : MonoBehaviour
                 UnityEngine.Debug.Log("Spawned: " + currentIndex);
                 canPressedAlpha1 = false;
             }
-            else if (canPressedAlpha1 && Input.GetKeyDown(KeyCode.Alpha2))
-            {
-                SpawnedObject(currentIndex1);
-                UnityEngine.Debug.Log("Spawned: " + currentIndex1);
-                canPressedAlpha1 = false;
-            }
-            else if (canPressedAlpha1 && Input.GetKeyDown(KeyCode.Alpha3))
-            {
-                SpawnedObject(currentIndex2);
-                UnityEngine.Debug.Log("Spawned: " + currentIndex2);
-                canPressedAlpha1 = false;
-            }
-            else if (canPressedAlpha8 && Input.GetKeyDown(KeyCode.Alpha8))
-            {
-                SpawnedObject(currentIndex3);
-                UnityEngine.Debug.Log("Spawned: " + currentIndex3);
-                canPressedAlpha8 = false;
-            }
-            else if (canPressedAlpha8 && Input.GetKeyDown(KeyCode.Alpha9))
-            {
-                SpawnedObject(currentIndex4);
-                UnityEngine.Debug.Log("Spawned: " + currentIndex4);
-                canPressedAlpha8 = false;
-            }
-            else if (canPressedAlpha8 && Input.GetKeyDown(KeyCode.Alpha0))
-            {
-                SpawnedObject(currentIndex5);
-                UnityEngine.Debug.Log("Spawned: " + currentIndex5);
-                canPressedAlpha8 = false;
-            }
+            //else if (canPressedAlpha1 && Input.GetKeyDown(KeyCode.Alpha2))
+            //{
+            //    SpawnedObject(currentIndex1);
+            //    UnityEngine.Debug.Log("Spawned: " + currentIndex1);
+            //    canPressedAlpha1 = false;
+            //}
+            //else if (canPressedAlpha1 && Input.GetKeyDown(KeyCode.Alpha3))
+            //{
+            //    SpawnedObject(currentIndex2);
+            //    UnityEngine.Debug.Log("Spawned: " + currentIndex2);
+            //    canPressedAlpha1 = false;
+            //}
+            //else if (canPressedAlpha8 && Input.GetKeyDown(KeyCode.Alpha8))
+            //{
+            //    SpawnedObject(currentIndex3);
+            //    UnityEngine.Debug.Log("Spawned: " + currentIndex3);
+            //    canPressedAlpha8 = false;
+            //}
+            //else if (canPressedAlpha8 && Input.GetKeyDown(KeyCode.Alpha9))
+            //{
+            //    SpawnedObject(currentIndex4);
+            //    UnityEngine.Debug.Log("Spawned: " + currentIndex4);
+            //    canPressedAlpha8 = false;
+            //}
+            //else if (canPressedAlpha8 && Input.GetKeyDown(KeyCode.Alpha0))
+            //{
+            //    SpawnedObject(currentIndex5);
+            //    UnityEngine.Debug.Log("Spawned: " + currentIndex5);
+            //    canPressedAlpha8 = false;
+            //}
         }
 
 

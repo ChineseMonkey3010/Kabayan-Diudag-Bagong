@@ -1206,6 +1206,9 @@ MonoBehaviour:
   tempindex1: 0
   batten: {fileID: 0}
   speed: 0
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!1 &626452805
 GameObject:
   m_ObjectHideFlags: 0
@@ -2335,6 +2338,9 @@ MonoBehaviour:
   tempindex1: 0
   batten: {fileID: 0}
   speed: 0
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!1 &1247802983
 GameObject:
   m_ObjectHideFlags: 0
@@ -3128,3 +3134,6 @@ MonoBehaviour:
   tempindex1: 0
   batten: {fileID: 0}
   speed: 0
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 0
