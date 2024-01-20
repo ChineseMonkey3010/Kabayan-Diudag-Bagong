@@ -471,7 +471,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 1
   m_Sprite: {fileID: -2039086873, guid: 4cc6147540863c54b8bf873cbb7d72cf, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -729,7 +729,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 1
   m_Sprite: {fileID: -742527093, guid: fc8fd7796332fc44ca539747cbfc9765, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -958,6 +958,7 @@ GameObject:
   - component: {fileID: 482526541}
   - component: {fileID: 482526542}
   - component: {fileID: 482526543}
+  - component: {fileID: 482526544}
   m_Layer: 0
   m_Name: GroundPlayer1
   m_TagString: Ground
@@ -1058,6 +1059,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 20, y: 1.0184109}
   m_EdgeRadius: 0
+--- !u!50 &482526544
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 482526540}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 7
 --- !u!1 &530911891
 GameObject:
   m_ObjectHideFlags: 0
@@ -1174,11 +1196,16 @@ MonoBehaviour:
   currentIndex: 0
   currentIndex1: 0
   currentIndex2: 0
+  instantiatePoint1: {fileID: 0}
+  instantiatePoint2: {fileID: 0}
   currentIndex3: 0
   currentIndex4: 0
   currentIndex5: 0
+  instantiatePoint3: {fileID: 0}
+  instantiatePoint4: {fileID: 0}
   tempindex1: 0
   batten: {fileID: 0}
+  speed: 0
 --- !u!1 &626452805
 GameObject:
   m_ObjectHideFlags: 0
@@ -1398,7 +1425,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 1
   m_Sprite: {fileID: -1092033781, guid: 1e7e01cf8a952fd418c00b6dda158a8f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1972,6 +1999,7 @@ GameObject:
   - component: {fileID: 1079502196}
   - component: {fileID: 1079502195}
   - component: {fileID: 1079502197}
+  - component: {fileID: 1079502198}
   m_Layer: 0
   m_Name: GroundPlayer2
   m_TagString: Ground
@@ -2072,6 +2100,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 20, y: 1.1271412}
   m_EdgeRadius: 0
+--- !u!50 &1079502198
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1079502194}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 7
 --- !u!1 &1137932301
 GameObject:
   m_ObjectHideFlags: 0
@@ -2276,11 +2325,16 @@ MonoBehaviour:
   currentIndex: 0
   currentIndex1: 0
   currentIndex2: 0
+  instantiatePoint1: {fileID: 0}
+  instantiatePoint2: {fileID: 0}
   currentIndex3: 0
   currentIndex4: 0
   currentIndex5: 0
+  instantiatePoint3: {fileID: 0}
+  instantiatePoint4: {fileID: 0}
   tempindex1: 0
   batten: {fileID: 0}
+  speed: 0
 --- !u!1 &1247802983
 GameObject:
   m_ObjectHideFlags: 0
@@ -2734,7 +2788,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 1
   m_Sprite: {fileID: -742527093, guid: fc8fd7796332fc44ca539747cbfc9765, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -3064,8 +3118,13 @@ MonoBehaviour:
   currentIndex: 0
   currentIndex1: 0
   currentIndex2: 0
+  instantiatePoint1: {fileID: 0}
+  instantiatePoint2: {fileID: 0}
   currentIndex3: 0
   currentIndex4: 0
   currentIndex5: 0
+  instantiatePoint3: {fileID: 0}
+  instantiatePoint4: {fileID: 0}
   tempindex1: 0
   batten: {fileID: 0}
+  speed: 0

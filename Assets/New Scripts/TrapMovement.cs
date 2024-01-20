@@ -16,22 +16,28 @@ public class TrapMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        trapmovementupdate();
-        checktrapposition();
-        
+        trapmovementupdate();  
     }
 
-    private void checktrapposition()
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (spawnedObject.transform.position.x <= -10)
+        // Check if the object that triggered the collider is the player
+        if (collision.gameObject.CompareTag("Player"))
         {
-            Destroy(spawnedObject);
+            //Destroy(gameObject); // Destroy the trap object when it hits the player
+            UnityEngine.Debug.Log("Bangsad");
+        }
+
+        if (collision.gameObject.CompareTag("Ground"))
+        {
+            UnityEngine.Debug.Log("Object collided with ground!");
         }
     }
 
     private void trapmovementupdate()
     {
         var movementObject = Time.deltaTime * speed;
-        spawnedObject.transform.position = new Vector3(spawnedObject.transform.position.x - movementObject, transform.position.y, transform.position.z);
+        spawnedObject.transform.position = new Vector3(spawnedObject.transform.position.x - movementObject, spawnedObject.transform.position.y, spawnedObject.transform.position.z);
+
     }
 }

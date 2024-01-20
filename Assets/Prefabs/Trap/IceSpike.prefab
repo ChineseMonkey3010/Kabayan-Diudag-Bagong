@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 6742847559019502546}
   - component: {fileID: 6742847559019502549}
   - component: {fileID: 6742847559019502548}
+  - component: {fileID: -3445556617609250198}
   m_Layer: 0
   m_Name: IceSpike
   m_TagString: Untagged
@@ -99,7 +100,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.060330868, y: -0.7067364}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -110,7 +111,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 3.04, y: 2.88}
+  m_Size: {x: 1.6092892, y: 1.4665273}
   m_EdgeRadius: 0
 --- !u!50 &6742847559019502548
 Rigidbody2D:
@@ -132,4 +133,18 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
+--- !u!114 &-3445556617609250198
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6742847559019502545}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae659bc54036f584d9b7676d6d99e3c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnedObject: {fileID: 6742847559019502545}
+  speed: 2
